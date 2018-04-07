@@ -1,4 +1,4 @@
-// add new interesr
+// add new interest
 $("#insert_form").on("submit", function(e) {
   e.preventDefault();
   var data = $(this).serialize();
