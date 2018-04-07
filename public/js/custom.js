@@ -15,7 +15,6 @@ $("#insert_form").on("submit", function(e) {
       if (typeof data["errors"] == "undefined") {
         $("#add").modal("hide");
         location.reload();
-        //$("#table").load(window.location + "#table");
       } else {
         $("#iderror").text(data["errors"]["wording"][0]);
       }
