@@ -45,7 +45,6 @@ $(".deleteProduct").on("click", function(e) {
           _token: token
         },
         success: function(data) {
-          //return data;
           if (data.error) {
             swal("Ops!", data.message, "error");
           } else {
